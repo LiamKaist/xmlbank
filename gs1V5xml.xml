@@ -1,0 +1,20 @@
+<product_data:productData xmlns:product_data="urn:gs1:tsd:product_data:xsd:1" xmlns:liam_test_module="urn:gs1:tsd:liam_test_module:xsd:1">
+   <serializedGLN>1234567891234abcdef</serializedGLN>
+   <buildingName languageCode="en">SpongeBob's Pineapple</buildingName>
+   <buildingCode languageCode="en">SQUIDWARD</buildingCode>
+   <longitude>-36</longitude>
+   <latitude>12.5</latitude>
+   <productDataRecord>
+      <module>
+         <liam_test_module:liamTestModule>
+            <roomName languageCode="en">SpongeBob's Bedroom</roomName>
+            
+            <roomPurpose languageCode="en">Where SpongeBob sleeps soundly with Gary</roomPurpose>
+
+            <access languageCode="en">Restricted to SpongeBob</access>
+
+
+         </liam_test_module:liamTestModule>
+      </module>
+   </productDataRecord>
+</product_data:productData>
