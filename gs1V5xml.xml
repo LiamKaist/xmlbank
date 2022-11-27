@@ -1,20 +1,45 @@
-<product_data:productData xmlns:product_data="urn:gs1:tsd:product_data:xsd:1" xmlns:liam_test_module="urn:gs1:tsd:liam_test_module:xsd:1">
+<product_data:productData xmlns:product_data="urn:gs1:tsd:product_data:xsd:1" xmlns:room_module="urn:gs1:tsd:room_module:xsd:1" xmlns:building_services_module="urn:gs1:tsd:building_services_module:xsd:1">
    <serializedGLN>1234567891234abcdef</serializedGLN>
    <buildingName languageCode="en">SpongeBob's Pineapple</buildingName>
    <buildingCode languageCode="en">SQUIDWARD</buildingCode>
    <longitude>-36</longitude>
    <latitude>12.5</latitude>
-   <productDataRecord>
+   <buildingRecord>
+      <buildingDescription languageCode="en">This building is an iconic building from the Hit show SpongeBob</buildingDescription>
       <module>
-         <liam_test_module:liamTestModule>
-            <roomName languageCode="en">SpongeBob's Bedroom</roomName>
-            
-            <roomPurpose languageCode="en">Where SpongeBob sleeps soundly with Gary</roomPurpose>
+         <building_services_module:buildingServicesModule>
+            <numberOfServiceTypes>1</numberOfServiceTypes>
+            <campusServiceType>Academia</campusServiceType>
+            <module>
+               <room_module:roomModule>
+                  <roomNumber>925</roomNumber>
+                  <roomFloor>2</roomFloor>
+                  <contactNumber>01084001245</contactNumber>
+                  <roomName>Squidroom</roomName>
+                  <roomPurpose>SpongeBob's Bedroom</roomPurpose>
+                  <roomLocation>
+                     <latitude>-12</latitude>
+                     <longitude>-40</longitude>
+                  </roomLocation>
+                  <capacity>400</capacity>
+                  <isReserved>true</isReserved>
+               </room_module:roomModule>
 
-            <access languageCode="en">Restricted to SpongeBob</access>
-
-
-         </liam_test_module:liamTestModule>
+               <room_module:roomModule>
+                  <roomNumber>345</roomNumber>
+                  <roomFloor>6</roomFloor>
+                  <contactNumber>4101245</contactNumber>
+                  <roomName>Gary's Room</roomName>
+                  <roomPurpose>Gary's Kennel</roomPurpose>
+                  <roomLocation>
+                     <latitude>-125</latitude>
+                     <longitude>20</longitude>
+                  </roomLocation>
+                  <capacity>1</capacity>
+                  <isReserved>false</isReserved>
+               </room_module:roomModule>
+            </module>
+         </building_services_module:buildingServicesModule>
       </module>
-   </productDataRecord>
+   </buildingRecord>
 </product_data:productData>
