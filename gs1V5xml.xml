@@ -1,11 +1,11 @@
 <product_data:productData xmlns:product_data="urn:gs1:tsd:product_data:xsd:1" xmlns:room_module="urn:gs1:tsd:room_module:xsd:1" xmlns:building_services_module="urn:gs1:tsd:building_services_module:xsd:1">
-   <serializedGLN>1234567891234abcdef</serializedGLN>
-   <buildingName languageCode="en">SpongeBob's Pineapple</buildingName>
-   <buildingCode languageCode="en">SQUIDWARD</buildingCode>
-   <longitude>-36</longitude>
-   <latitude>12.5</latitude>
+    <serializedGLN>88000269010130200335322961z</serializedGLN>
+    <buildingName languageCode='en' >Kim Beang-Ho and Kim Sam-Youl ITC Building</buildingName>
+    <buildingCode languageCode='en' >N1</buildingCode>
+    <longitude>127.3656308</longitude>
+    <latitude>36.37419256</latitude>
    <buildingRecord>
-      <buildingDescription languageCode="en">This building is an iconic building from the Hit show SpongeBob</buildingDescription>
+      <buildingDescription languageCode="en">Facilities: Many computer servers, storage servers, and Linux cluster servers available for research and educational use. Moreover, each of the laboratories is equipped with high-quality computer servers, workstations, personal computers, and accessories. High-speed Internet and Wi-Fi connections are available in all laboratories and classrooms in the CS buildings.Wi-Fi connections are available in all laboratories and classrooms in the CS buildings.</buildingDescription>
       <module>
          <building_services_module:buildingServicesModule>
             <numberOfServiceTypes>1</numberOfServiceTypes>
@@ -13,24 +13,24 @@
             <module>
                <room_module:roomModule>
                   <roomNumber>925</roomNumber>
-                  <roomFloor>2</roomFloor>
+                  <roomFloor>9</roomFloor>
                   <contactNumber>01084001245</contactNumber>
-                  <roomName>Squidroom</roomName>
-                  <roomPurpose>SpongeBob's Bedroom</roomPurpose>
+                  <roomName>9th Floor Meeting Room</roomName>
+                  <roomPurpose></roomPurpose>
                   <roomLocation>
-                     <latitude>-12</latitude>
-                     <longitude>-40</longitude>
+                     <latitude>36.37419256</latitude>
+                     <longitude>127.3656308</longitude>
                   </roomLocation>
-                  <capacity>400</capacity>
+                  <capacity>20</capacity>
                   <isReserved>true</isReserved>
                </room_module:roomModule>
 
                <room_module:roomModule>
                   <roomNumber>345</roomNumber>
-                  <roomFloor>6</roomFloor>
+                  <roomFloor>3</roomFloor>
                   <contactNumber>4101245</contactNumber>
-                  <roomName>Gary's Room</roomName>
-                  <roomPurpose>Gary's Kennel</roomPurpose>
+                  <roomName>Random Room</roomName>
+                  <roomPurpose>It does not exist</roomPurpose>
                   <roomLocation>
                      <latitude>-125</latitude>
                      <longitude>20</longitude>
